@@ -164,3 +164,38 @@ section {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* Resume Section */
+.resume-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.colum-heading {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.colum-item-heading {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.colum-item-subheading {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.colum > hr {
+  margin: 30px 0px;
+  background: #d1d1d1;
+}
+.resume-action {
+  text-align: center;
+  margin-top: 50px;
+}
