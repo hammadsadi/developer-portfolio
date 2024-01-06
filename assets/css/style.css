@@ -49,3 +49,37 @@ header {
   font-size: 20px;
   text-transform: capitalize;
 }
+
+/* Banner Related Style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/assets/images/header_bg.png"),
+    url("/assets/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
+  padding: 0px 35px 0px 150px;
+}
+.banner-subheading {
+  color: #474747;
+  font-size: 35px;
+  font-weight: 600;
+}
+.banner-heading {
+  color: #181818;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0px;
+  max-width: 585px;
+}
+
+.banner img {
+  height: 675px;
+}
