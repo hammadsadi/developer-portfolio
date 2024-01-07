@@ -14,7 +14,13 @@
       rel="stylesheet"
     />
     <!-- Css -->
+
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/938a56f6c8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -39,8 +45,14 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn-primary">Download CV</button>
-          <button class="btn-primary">Contact</button>
+          <div class="banner-action-btn">
+            <button class="btn-primary">
+              <i class="fa-solid fa-download"></i>Download CV
+            </button>
+            <button class="btn-primary-outline">
+              <i class="fa-solid fa-phone"></i>Contact
+            </button>
+          </div>
         </div>
         <img src="assets/images/hardy.png" alt="hardey" />
       </div>
@@ -219,10 +231,63 @@
           </div>
         </div>
         <div class="resume-action">
-          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-download"></i>Download CV
+          </button>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-info-container">
+        <div class="footer-info">
+          <h3 class="footer-info-heading">Lets Connect</h3>
+          <p class="footer-description">
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+          <div class="footer-social-info">
+            <a href=""
+              ><img src="assets/images/icons/facebook.png" alt="Facebook"
+            /></a>
+            <a href=""
+              ><img src="assets/images/icons/insta.png" alt="Instagram"
+            /></a>
+            <a href=""><img src="assets/images/icons/twitter.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="footer-info">
+          <h3 class="footer-info-heading">Let’s Message me</h3>
+          <form action="">
+            <label for="name">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+              />
+            </label>
+            <label for="email">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+              />
+            </label>
+            <label for="message">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="4"
+                placeholder="Message"
+              ></textarea>
+            </label>
+            <button class="btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
